@@ -1,6 +1,44 @@
+<div class="menu-container">
+    <div class="menu-options">
+        <div class="menu-item" [routerLinkActive]="'active-link'">
+            <a routerLink="/home">Home</a>
+        </div>
+        <div class="div-item"></div>
+        <div class="menu-item" [routerLinkActive]="'active-link'">
+            <a routerLink="/projects">Projetos</a>
+        </div>
+        <div class="div-item"></div>
+        <div class="menu-item" [routerLinkActive]="'active-link'">
+            <a routerLink="/courses">Cursos</a>
+        </div>
+        <div class="div-item"></div>
+        <div class="menu-item" [routerLinkActive]="'active-link'">
+            <a routerLink="/about">Sobre</a>
+        </div>
+        <div class="div-item"></div>
+        <div class="menu-item" [routerLinkActive]="'active-link'">
+            <a routerLink="/contact">Contato</a>
+        </div>
+    </div>
+</div>
+<div class="menu-line">
 
+</div>
+
+<!--
 <a routerLink="/home" routerLinkActive="active">Home</a>
-<a routerLink="/projects" routerLinkActive="active">Projects</a>
-<a routerLink="/courses" routerLinkActive="active">Courses</a>
-<a routerLink="/about" routerLinkActive="active">About</a>
+<a routerLink="/projects" routerLinkActive="active-link">Projects</a>
+<a routerLink="/courses" routerLinkActive="active-link">Courses</a>
+<a routerLink="/about" routerLinkActive="active-link">About</a>
 <a routerLink="/contact" routerLinkActive="active">Contact</a>
+-->
+<!--
+<div routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+    <a routerLink="/home" routerLinkActive="active-page" ariaCurrentWhenActive="page">Home</a>
+    <a routerLink="/projects" routerLinkActive="active-page" ariaCurrentWhenActive="page">Projects</a>
+    <a routerLink="/courses" routerLinkActive="active-page" ariaCurrentWhenActive="page">Courses</a>
+    <a routerLink="/about" routerLinkActive="active-page" ariaCurrentWhenActive="page">About</a>
+    <a routerLink="/contact" routerLinkActive="active-page" ariaCurrentWhenActive="page">Contact</a>
+</div>
+-->
+<router-outlet></router-outlet>

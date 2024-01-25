@@ -1,0 +1,30 @@
+
+.app-body {
+    background-color: #ffffff;
+}
+
+.app-container {
+    min-height: 100vh;
+    background-color: #e5e5e5;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Merriweather', serif;
+    font-size: calc(9px + 0.9vw);
+    line-height: 1.7;
+}
+
+@media only screen and (min-width: 768px) {
+    .app-container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .app-container {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
