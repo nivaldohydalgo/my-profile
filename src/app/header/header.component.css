@@ -1,4 +1,10 @@
 
+.header-container {
+    display: flex;
+    background-color: darkkhaki;
+
+}
+
 .my-name {
     font-family: 'Ubuntu', sans-serif;
     font-size: 48px;

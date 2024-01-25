@@ -13,10 +13,18 @@ body {
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #dee2e6;
     color: #333333;
 }
 
 a {
     text-decoration: none;
+}
+
+/*   GENERAL USERS   */
+/*   =============   */
+
+.divider-line {
+    background-color: #000000;
+    height: 2px;
 }

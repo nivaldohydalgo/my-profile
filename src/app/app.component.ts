@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { TopBarComponent } from './top-bar/top-bar.component'
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { FooterComponent } from './footer/footer.component';
     RouterOutlet,
     HeaderComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    TopBarComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
