@@ -1,7 +1,7 @@
 
 .app-body {
     display: flex;
-    background-color:fuchsia;
+    background-color:#ffffff;
     justify-content: center;
     height: 100vh;
 }
@@ -9,16 +9,15 @@
 .app-container {
     display: flex;
     height: 100vh;
-    min-height: 100vh;
     width: 100vw;
     flex-direction: column;
     background-color: #ffffff;
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: calc(12px + 1vw);
     line-height: 1.5;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .app-container {
         width: calc(500px + ((100vw - 500px) / 2));
     }
@@ -27,4 +26,10 @@
 .app-content {
     display: flex;
     flex: 1;
+}
+
+.app-top {
+    display: flex;
+    flex-direction: column;
+    background-color: #00b4d8;
 }

@@ -2,7 +2,7 @@
 .menu-container {
     display: flex;
     min-height: 100px;
-    background-color:cornflowerblue;
+    background-color:#ffffff;
     justify-content: center;
     align-items: center;
 }
@@ -25,12 +25,13 @@
     padding-right: 16px;
     padding-top: 6px;
     padding-bottom: 6px;
-    background-color: #e9c46a;
+    background-color: #a2d2ff;
     border-radius: 12px;
 }
 
 .active-link {
-    background-color: #f4a261;
+    background-color: #0077b6;
+    
 }
 
 .div-item {
